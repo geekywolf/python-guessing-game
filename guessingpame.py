@@ -1,14 +1,10 @@
 import random 
 
-def random_generator(x,y):
-    number = random.randint(x,y)
-    return number
-
 def game_logic(x, y):
     check = True
     count = x
 
-    randomnum = random_generator(1,y)
+    randomnum = random.randint(1,y)
 
     while check:
         try:
